@@ -25,7 +25,7 @@ const errorMiddleware1 = require("./middlewares/error-middleware");
 
 // ✅ CORS Configuration
 const corsOptions = {
-  origin: ['https://front-task-eight.vercel.app/'],
+  origin: ['https://front-task-eight.vercel.app'],
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
 };
